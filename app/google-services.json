@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "268468886709",
+    "firebase_url": "https://e-business-9d42e.firebaseio.com",
+    "project_id": "e-business-9d42e",
+    "storage_bucket": "e-business-9d42e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268468886709:android:e5703ee4f9974af2",
+        "android_client_info": {
+          "package_name": "com.example.foji.e_business"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268468886709-dmecjudop10ci6e9lht2l90i2f2c2evl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foji.e_business",
+            "certificate_hash": "51ca5e7aa146a7e786ec29f5e8e440dd17c4f6d0"
+          }
+        },
+        {
+          "client_id": "268468886709-98tch32aqu5gql9al3srtr6eo13osj3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHvfKcc6Sksb1Pv3QCICXg99OBip9uJ04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268468886709-98tch32aqu5gql9al3srtr6eo13osj3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

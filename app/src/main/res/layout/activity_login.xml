@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+    <!--  android:background="#FF5722"
+    android:background="#FF5722" // theme color orange
+    android:textColor="#E64A19"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/choose1"/>
+            <!--android:src="@mipmap/ic_launcher_foreground" -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Perform to achieve your goal"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/emailtextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordtextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:hint="Password"
+            android:inputType="textWebPassword" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radiogroup">
+
+            <RadioButton
+                android:id="@+id/login_en"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Entrepreneur"
+                />
+
+            <RadioButton
+                android:id="@+id/login_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Investor"
+                android:layout_marginLeft="40dp"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/loginbuttonID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Log In"
+            android:onClick="Signing"
+            android:textColor="#000000" />
+
+       <!-- <TextView
+            android:id="@+id/textforgetID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="forget password ?"
+            android:textColor="#1565C0" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account ?" />
+
+            <TextView
+                android:id="@+id/textsignupID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up Now "
+                android:textColor="#1565C0"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
